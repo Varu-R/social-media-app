@@ -52,16 +52,7 @@ Copy `.env.local.example` and update with your Appwrite credentials:
 cp .env.local.example .env.local
 ```
 
-```env
-VITE_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-VITE_APPWRITE_PROJECT_ID=your_project_id_here
-VITE_APPWRITE_DATABASE_ID=social_db
-VITE_APPWRITE_USERS_COLLECTION_ID=users
-VITE_APPWRITE_POSTS_COLLECTION_ID=posts
-VITE_APPWRITE_COMMENTS_COLLECTION_ID=comments
-VITE_APPWRITE_LIKES_COLLECTION_ID=likes
-VITE_APPWRITE_BUCKET_ID=post_images
-```
+
 
 ### 4. Setup Appwrite Database
 
@@ -316,15 +307,7 @@ npm run dev -- --port 3000
 - [React Query](https://tanstack.com/query)
 - [Vite](https://vitejs.dev)
 
-## 🎯 Next Steps (After Interview)
 
-1. Add real-time updates with WebSockets
-2. Implement user follow/followers system
-3. Add hashtags and search functionality
-4. Push notifications
-5. Direct messaging
-6. Infinite scroll pagination
-7. Image compression before upload
 
 ## 📄 License
 
@@ -332,4 +315,4 @@ MIT License - feel free to use this for your portfolio!
 
 ---
 
-**Built with ❤️ for your interview. Good luck! 🚀**
+
